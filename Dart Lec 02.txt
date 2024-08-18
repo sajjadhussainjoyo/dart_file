@@ -1,0 +1,73 @@
+19- Aug-2024
+
+Topics Covered:
+1.Variables
+2.Operators
+
+
+void main() {
+  sum();
+// code . to open vscode through
+// Data type means data ko validate karna
+
+  int num = 10;
+  double num2 = 10;
+  // num num3 = 10;
+  // num num4 = 10.2;
+  print(num2);
+
+  //Operators
+  // 1.Arithmetic   2.Equality & Relational  3.Logical
+
+  // 1. Multiply (*) ii. Divide (/) iii. Plus (+) iv. Subtract(-)  v.(~/) = to ignore decimal point
+  // vi. (%) = Modulus.
+  int number = num * num2;
+  print(number);
+
+  // 2. Equality and Relational Operator
+  // i. >  (greater than). ii.< (Less than) iii. >= (Greater than equal to)
+  // iv. <= (Less than equal to) v. == (equal to) vi. != (Not equal)
+  int a = 10;
+  int b = 20;
+  bool result = a != b;
+  print(result);
+
+  int c = 20;
+  int d = 40;
+  bool result 2 = c > d;
+  print(result2);
+
+  var e = 50;
+  var f = 60;
+  bool result3 = e >= f;
+  print(result3);
+
+  var g = 70; 
+  var h = 70;
+  bool result4 = g <= h;
+  print(result4);
+
+  var email = 60;
+  var passwrd = 60;
+  bool result5 = email == passwrd;
+  print(result5);
+
+
+
+// 3. Logical Operators
+// i. && (AND) ii. || (OR) iii. ! (NOT)
+
+// i. print(true && true), print(false && false);
+//ii. print(true || false), print(false || false)
+//iii. print(!true || false), print(!false);
+
+
+
+void sum(){
+    var x = 10;
+    var y = 30;
+    bool result = x + y;
+    print(result);
+  }
+// string sa string ko check karna 
+}
