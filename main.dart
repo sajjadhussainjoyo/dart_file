@@ -1,72 +1,112 @@
 void main() {
-  practice();
-  name();
-  print('Program');
+  // 1-Sep-24 (Class 04 Dart)
+  // TOPICS COVERED
+  // NESTED IF ELSE
+  // LIST ITS DATA TYPES AND METHODS
+  // Map
+
+  // last class if else
+  // Git and GithUB
+
+  // Class Task 01  Given time (10-15 mins)
+  //Task Details: Login program if else ka through user sa input then match
+  //kareinga user na sahi email aur password put kia
+  //user na agar dono galat dal raha tou email galat hai aur
+  //email or username (login hojaiga username and email sa)
+  // password aik  email is incorrect password is incorrect
+  // agr dono theek tou login successful
+
+  // stdout.write('Enter your email or username....');
+  // var email = stdin.readLineSync();
+
+  // stdout.write('Enter Password....');
+  // int password = int.parse(stdin.readLineSync()!);
+
+  // if (email == 'sajjadhussain@gmail.com') {
+  //   print('Email Successful');
+  //   print('Invalid Email');
+  // } else if (password == 123) {
+  //   if (password == 123) {
+  //     print('');
+  //   }
+  // } else {
+  //   print('Successful Login');
+  //   print('Invalid ');
+  // }
+
+  // MAP & ITS DATATYPES
+// INDEX 0 SA MAGAR COUNT KRTA HWA 1 SA
+// FIRST END REPLACEMENT
+//
+
+// Simply print List numbers
+  List mylist = ['sajjad', 12345, 'vscode'];
+  print(mylist);
+
+// Print list index
+  print(mylist[1]);
+
+  // List Methods
+  //i. first, ii.last, iii. elementAt(), iv.length
+  print(mylist.first);
+  print(mylist.last);
+  print(mylist.elementAt(1));
+  print(mylist.length);
+
+// List methods
+// v. add() vi. clear() vii. removeAt() viii. replaceRange()
+// ix. sort()
+
+// Add method i. add() ii. addAll() iii. insert() iv. insertAll()
+  mylist.add('hello');
+  print(mylist);
+
+// Clear method
+  mylist.clear();
+  print(mylist);
+
+// Remove method i. remove() ii. removeAt() iii. removeLast()
+
+// Remove method
+  var vals = [1, 3, 4, 5];
+  vals.remove(3);
+  print(vals);
+
+// RemoveAt
+  vals.removeAt(2);
+  print(vals);
+
+// Remove Last
+  vals.removeLast();
+  print(vals);
+
+  // isEmpty() isNotEmpty()
+
+// List removeRange method
+  List numberList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  numberList.replaceRange(1, 5, [11, 12, 13, 14, 15]);
+  print(numberList);
+
+  // List method reversed() ismai ham ek variable naya intialize karwa
+  // kay phir reversed list laga deinga
+  var listTwo = numberList.reversed.toList();
+
+  // list 2 ways to clear method
+  // myList.clear();
+  // myList = [];
+
+//Map
+  // data store in keys value kesa access key ka zariyah sa hoga
+  // sir ko reminder delana string concatenation aur data
+  // map aur object ek hi cheez hai
+  //array aur list ek hi cheez hai
+
+  var data = {'name': 'sajjad', 'occupation': 'student'};
+  print(data);
+  print(data.keys);
+  print(data.values);
+
+// 2 ways to clear Map
+  data.clear();
+  data = {};
 }
-// question mark to open black box
-//11-Aug-2024
-//When to use flutter
-// When you need your app fast or you're developing an MVP.
-// MVP = Product ko banana ka lia
-// figma wirefram
-// buitin widgets sa fast application ban jati hai.
-// package to add map.
-// MVP : "Development is building a software version with core features
-// and minimalist design, using basic infrastructure"
-// Excellent Performance/
-// Google UI toolkit for developing natively compiled app for web, anrdroid and ios.
-// 164 starts while 118 for React native GitHub.
-// What is SDK Framework, Library.
-// What is Program? and Programming Language?
-// Assembly lang (low level)
-//High level (compile woh pc ko samjhati hai 0 aur 1 main).
-
-// Dart:
-// Variables: =>
-//("A variable is a named space in the memory that stores values.
-// In other words, It acts a cpmtainer for values in a program").
-//
-// Memory allocation data ko store kar rahe hota hain.
-// data ko store krta hain variables main.
-// 5 steps to make variable
-// i. keyword e.g var
-// ii. variable name. e.g name
-// iii. assigning operaotor. e.g =
-// iv. data. e.g ""
-// v. terminator. e.g ;
-//  var name = '';
-
-void name() {
-  var name = 'hello world';
-  print(name);
-}
-// Rules fo naming variable
-//  var name main alphabets and letter
-// keywords are not allowd to use a variable name.
-// blank spaces are
-// variable name famous way camel case e.g: firstName.
-// variable name ap digit use nhi kar sakta
-// variable
-//
-// void practice(){
-//   var firstName = 'My first program';
-//   firstName = 'My Second Program';
-//   print(firstName);
-
-// output kya ayega?
-// firstName variable name mai hamna variable assing kia
-// firstName dusra dafa hamna variable name ko reasign kia jis sa hamera
-// output reasign wala ayega
-
-// Ab output kya ayega?
-void practice() {
-  var firstName = 'My first program';
-  print(firstName);
-  firstName = 'My Second Program';
-  print(firstName);
-}
-//
-//
-//
-// wed evening
-//
